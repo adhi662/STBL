@@ -1,0 +1,96 @@
+body {
+    margin:0;
+    padding-top:800px;
+    text-align: center;
+    
+}
+.profile {
+    width:175px;
+    margin-bottom:50px;
+    border-radius:50%;
+}
+#Welcome {
+    position: absolute;
+    top: 0;
+    height:800px;
+    left:0;
+    bottom:0;
+    right:0;
+    overflow:hidden;
+  z-index: 9;
+        width:100%;
+    display:table;
+   background-color: #1cbcf7;
+background-image: linear-gradient(160deg, #1cbcf7 0%, #847ad4 100%);
+opacity:0.83;
+}
+#inner-element {
+    display:table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+        font-weight:300;
+}
+#name {
+    font-size:30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family:monospace;
+        font-weight:300;
+}
+#bio {
+    padding:50px;
+    text-align: center;
+    font-size: 42px;
+}
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size:20px;
+    line-height: 1.3;
+}
+.line {
+    height:6px;
+    width:70px;
+    background-color: blue;
+    margin:8px auto;
+}
+.Menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.Links {
+    float:left;
+    color:aquamarine;
+    padding: 5px 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.Links:hover {
+    background-color: blueviolet;
+}
+a {
+    text-decoration: none;
+    line-height: 2;
+    font-size: 15px;
+}
+a:hover {
+    color:blueviolet;
+}
+html {
+    scroll-behavior: smooth;
+}
